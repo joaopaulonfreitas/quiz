@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'WinstonBlack';
+    src: url('./fonts/Winston-Bold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    line-height: 1;
+}
+
+@font-face {
+    font-family: 'WinstonBold';
+    src: url('./fonts/Winston-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1;
+}
+
+@font-face {
+    font-family: 'WinstonRegular';
+    src: url('./fonts/Winston-Medium.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+}
+
+@font-face {
+    font-family: 'WinstonMedium';
+    src: url('./fonts/Winston-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    line-height: 1;
+}
+
+*{font-family: WinstonRegular;}
